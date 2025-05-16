@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import 'main_navigation.dart';
-import 'admin_navigation.dart';
+import '../widget/main_navigation.dart';
+import '../Dashboard/admin_navigation.dart';
 
 class SharedScaffold extends StatelessWidget {
   final Widget body;

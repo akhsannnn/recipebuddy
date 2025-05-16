@@ -1,9 +1,8 @@
 // main_navigation.dart
 import 'package:flutter/material.dart';
-import 'home_screen.dart';
-import 'cari_resep.dart';
-import 'upload_recipe_screen.dart';
-import 'profile_screen.dart';
+import '../Pages/home_screen.dart';
+import '../Pages/cari_resep.dart';
+import '../Pages/upload_recipe_screen.dart';
 
 class MainNavigation extends StatefulWidget {
   const MainNavigation({super.key});
@@ -14,13 +13,6 @@ class MainNavigation extends StatefulWidget {
 
 class _MainNavigationState extends State<MainNavigation> {
   int _currentIndex = 0;
-
-  final List<Widget> _pages = const [
-    HomeScreen(),
-    CariResepScreen(),
-    UploadRecipeScreen(),
-    ProfileScreen(),
-  ];
 
   @override
   Widget build(BuildContext context) {

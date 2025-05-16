@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:recipebuddy/home_screen.dart';
-import 'upload_recipe_screen.dart';
-import 'splash_screen.dart';
-import 'home_screen.dart';
+import 'package:recipebuddy/pages/home_screen.dart';
+import 'Pages/upload_recipe_screen.dart';
+import 'Pages/splash_screen.dart';
+import 'Pages/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
