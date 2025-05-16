@@ -1,0 +1,39 @@
+name: recipebuddy
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.0.0
+  image_picker: ^1.0.4
+  http: ^0.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/Ayam_woku.png
+    - assets/Blackstone_Beef_Teriyaki.png
+    - assets/Chicken_Katsu_Curry.png
+    - assets/Dimsum_Ayam.png
+    - assets/Fluffy_Pancake.png
+    - assets/Hash_Brown.png
+    - assets/Tahu_Aci.png
+    - assets/Tamagoyaki.png
+    - assets/Telur.png
+    - assets/Udang_saus_padang.png
+    - assets/Nasi_Goreng.png
+    - assets/Martabak.png
